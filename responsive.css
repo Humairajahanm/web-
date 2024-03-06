@@ -1,0 +1,37 @@
+@media only screen and (max-width: 991px){
+    .blog{
+		padding: 60px 0;
+	}
+	.blog .blog-list li{
+		width: 50%;
+		padding: 0 15px 30px;
+	}
+}
+@media only screen and (max-width: 768px){
+    .blog{
+		padding: 30px 0;
+	}
+	.blog .blog-list li{
+		width: 100%;
+		padding: 0 20px 35px;
+	}
+	.blog .blog-list .img{
+		display: block;
+		max-width: 380px;
+		margin: 0 auto 16px;
+	}
+
+}
+@media only screen and (max-width: 400px) {
+    .number-area .number {
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .number-area .text {
+        font-size: 8px;
+    }
+    .number-text {
+        width: 30px;
+	    height: 40px;
+    }
+}
